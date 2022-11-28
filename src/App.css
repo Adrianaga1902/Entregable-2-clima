@@ -1,0 +1,47 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("/image/wallpaperbetter.com_1366x768.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    background-color: rgba(173, 192, 190, 0.658);
+    border-radius: 0.5rem;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card_title{
+    font-size: 2rem;
+}
+
+.card_header{
+    text-align: center;
+}
+.card_description{
+    text-align: center;
+}
+.card_list{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+footer{
+    text-align: center;
+    padding: 2rem;
+    grid-column: span 2;
+}
+button{
+    font-family:'Poppins', sans-serif;
+    border-radius: 5px;
+    padding: 0.3rem;
+    background-color: rgba(173, 192, 190, 0.658);
+    cursor: pointer;
+}
